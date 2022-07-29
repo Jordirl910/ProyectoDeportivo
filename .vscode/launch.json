@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        
+           
+        {
+            "name": "Proyecto Liga",
+           "request": "launch",
+           "type": "al",
+           "environmentType": "OnPrem",
+           "server": "http://localhost",
+           "port": 7849,
+           "serverInstance": "BC200-TEST9",
+           "authentication": "Windows",
+           "startupObjectId": 22,
+           "startupObjectType": "Page",
+           "breakOnError": true,
+           "launchBrowser": true,
+           "enableLongRunningSqlStatements": true,
+           "enableSqlInformationDebugger": true,
+           "tenant": "default",
+           "schemaUpdateMode": "ForceSync"
+       }
+
+    ]
+}
